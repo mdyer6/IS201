@@ -1,0 +1,58 @@
+.bold {font-weight: bold;}
+.underline {text-decoration: underline;}
+
+.listtitle {font-weight: bold; 
+    font-style: normal;
+    font-size: 15px;
+    text-decoration: underline;
+color: rgb(241, 211, 211);}
+
+li {font-style: italic; 
+    font-weight: normal;
+    font-size: 14px;}
+
+body {font-size: 15px;
+    color: black;
+    background-color: rgb(112, 112, 250);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+a {color: white; 
+    text-decoration: none;}
+a:visited {color: rgb(80, 79, 79);}
+a:hover {text-decoration: underline; font-size: 18px;}
+
+.Espace {padding: 2px;}
+.Espace2 {margin: 5px;}
+
+.justify {text-align: justify;}
+
+.header {
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px black;
+}
+
+.mainbody {
+    top: 114px;
+    right: 112px;
+    left: 5px;
+    bottom: 5px;
+    padding-left: 5px;
+    border-left: solid 1px black;
+}
+
+.rightmenu {
+    top: 114px;
+    right: 5px;
+    width: 200px;
+    bottom: 5px;
+    border-left: solid 1px black;
+    padding-left: 5px;
+}
+
+.common {
+    position: absolute;
+}
